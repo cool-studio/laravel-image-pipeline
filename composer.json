@@ -1,0 +1,27 @@
+{
+    "name": "coolstudio/laravel-image-pipeline",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jamie Wood",
+            "email": "jamie@cool.studio"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.6|^6.0|^7.0|^8.0",
+        "tinify/tinify": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "CoolStudio\\LaravelImagePipeline\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CoolStudio\\LaravelImagePipeline\\ModuleServiceProvider"
+            ]
+        }
+    }
+}
